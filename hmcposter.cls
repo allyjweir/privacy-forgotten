@@ -153,7 +153,7 @@
 %% Define a command to include the HMC Logo.
 \DeclareRobustCommand{\@hmclogo}{%
   \begin{minipage}{9.5in}
-    \resizebox{9in}{!}{\includegraphics{hmclogo-pantone}}
+    \resizebox{9in}{!}{\includegraphics{CompSci_colour}}
   \end{minipage}
 }
 
@@ -177,9 +177,10 @@
 \fi
 
 %% For thesis.
+%% INSERT SECOND GRAPHIC HERE
 \if@thesis
 \fancyhead[L]{\raisebox{1.5in}{\@hmclogo}}
-\fancyhead[R]{\resizebox{7.5in}{!}{\includegraphics{hmcmath-hexen-logo}}}
+\fancyhead[R]{\resizebox{7.5in}{!}{\includegraphics{uni_glasgow_logo}}}
 \fi
 
 
